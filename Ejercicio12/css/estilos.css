@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.verde,
+.rojo{
+    list-style: none;
+    font-size: 30px;
+    display: none;
+}
+
+.verde{
+    color: green;
+}
+
+.rojo{
+    color: red;
+}

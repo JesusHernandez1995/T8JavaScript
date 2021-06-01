@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clock-container{
+    background: #525153;
+    height: 180px;
+    width: 470px;
+    border-radius: 50px 50px 50px 50px;
+    border: 1.5px solid black;
+}
+
+.cuadro{
+    background: #d4d1d7;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
+
+#hora,
+#minutos,
+#segundos{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+.texto{
+    color: white;
+}

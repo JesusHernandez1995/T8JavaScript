@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Bootstrap file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Expresiones Regulares</title>
+</head>
+<body>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <form action="" class="form-fecha">
+                    <div class="mb-3">
+                        <label for="fecha" class="form-label">Introduzca una fecha válida en formato dd/mm/aaaa</label>
+                        <div class="mb-3 d-flex justify-content-between">
+                            <input type="text" class="form-control" id="fecha">
+                            <button type="button" class="btn btn-primary ms-5" id="btn-dateValidate">Validate</button>   
+                        </div>
+                        <ul class="mb-2">
+                            <li class="verde mt-3" id="_dateOK">Fecha correcta</li>
+                            <li class="rojo mt-3" id="_dateERROR">Fecha incorrecta</li>
+                        </ul>
+                    </div>      
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="" class="form-email">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Introduzca un correo electrónico válido</label>
+                        <div class="mb-3 d-flex justify-content-between">
+                            <input type="text" class="form-control" id="email">
+                            <button type="button" class="btn btn-primary ms-5" id="btn-emailValidate">Validate</button>   
+                        </div>
+                        <ul class="mb-2">
+                            <li class="verde mt-3" id="_emailOK">Correo válido</li>
+                            <li class="rojo mt-3" id="_emailERROR">Correo no válido</li>
+                        </ul>
+                    </div>      
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="mb-3">
+                                <label for="name_lastName" class="form-label">Introduzca un nombre y apellido</label>
+                                <div class="mb-3 d-flex justify-content-center">
+                                    <input type="text" class="form-control" id="name_lastName">  
+                                    <button type="button" class="btn btn-primary ms-5" id="btn-nameValidate">Validate</button> 
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bootstrap file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="js/regularExpressions.js"></script>
+</body>
+</html>
